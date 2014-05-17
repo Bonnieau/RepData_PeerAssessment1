@@ -77,7 +77,8 @@ count.na <- sum(is.na(myds))
 
 #### The total number of rows with missing value is 2304
 
-### Filling all the missing steps with the mean of the 5 minutes interval
+### Filling all the missing data 
+#### Here use the strategy to fill the missing data with the mean of the 5 minutes interval
 
 ```r
 # create a new dataset from the old dataset
